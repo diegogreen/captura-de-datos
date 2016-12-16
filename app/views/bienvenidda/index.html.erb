@@ -1,0 +1,20 @@
+
+<h1>PROGRAMA DE NOTARIADO PUBLICO</h1>
+<p>NUEVO EXPEDIENTE</p>
+<body>
+	<%= form_for :article do |f| %>
+  <p>
+    <%= f.label :Expediente %><br>
+    <%= f.text_field :Expediente %>
+  </p>
+ 
+  <p>
+    <%= f.label :observacion %><br>
+    <%= f.text_area :observacion %>
+  </p>
+ 
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+</body>
